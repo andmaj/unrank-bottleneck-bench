@@ -1,0 +1,19 @@
+randbitmap
+==========
+Generates a repeatable random bitmap.
+This is accomplished by using an internal pseudorandom number generator.
+
+To compile:
+make
+
+To run:
+./bin/randbitmap
+
+To clean:
+make clean
+
+Usage: randbitmap [seed] [density] [bitsnumber] [filename]
+
+Written by Andras Majdan
+License: GNU General Public License Version 3
+Report bugs to <majdan.andras@gmail.com>
