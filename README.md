@@ -3,25 +3,16 @@
 *Benchmark unrank operation cost of access using libcds and sdsl library.*
 
 ## To make
-
-
 ```make```
 
 ## To test libcds
-
-
 ```make cds-bench```
 
 ## To test sdsl
-
-
 ```make sdsl-bench```
 
 ## Between tests
-
-
 ```make clean```
-
 
 ## Results (Intel Q6600):
 
