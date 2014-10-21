@@ -1,0 +1,46 @@
+Results (Intel Q6600):
+
+10 % density
+
+                    block size (bits)
+unrank (%)          9       17      33      65      129
+
+sdsl-normal-wobp    4.11    10.8    24.27   48.22   37.97
+sdsl-normal         5.2     12.52   28.34   51.69   42.27
+sdsl-linear         5.11    12.14   28.48   55.73   41.42
+
+20 % density
+
+                    block size (bits)
+unrank (%)          9       17      33      65      129
+
+sdsl-normal-wobp    6.95    17.14   33.25   57.25   37.28
+sdsl-normal         8.88    21.45   35.85   58.64   39.87
+sdsl-linear         8.81    19.04   35.48   58.91   39.67
+
+30 %  density
+
+                    block size (bits)
+unrank (%)          9       17      33      65      129
+
+sdsl-normal-wobp    8.95    19.97   35.06   58.03   35.23
+sdsl-normal         11.09   22.34   37.51   59.64   38.13
+sdsl-linear         11.02   21.97   37.26   59.84   38.05
+
+1 %  density
+
+                    block size (bits)
+futásidő (%)        9       17      33      65      129
+
+sdsl-normal-wobp    1.12    1.92    3.91    10.39   15.86
+sdsl-normal         1.15    1.99    4.63    12.21   19.75
+sdsl-linear         1.11    1.83    5.05    19.54   33.12
+
+0.1 %  density
+
+                    block size (bits)
+unrank (%)          9       17      33      65      129
+
+sdsl-normal-wobp    0.83    1.07    1.44    2.14    1.79
+sdsl-normal         0.83    1.05    1.43    2.17    2.09
+sdsl-linear         0.82    1.02    1.49    2.76    4.55

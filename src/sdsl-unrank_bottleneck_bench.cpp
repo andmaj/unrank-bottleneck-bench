@@ -25,7 +25,7 @@ int main()
 	size_t sum = 0;
 
 	typedef sdsl::bit_vector bit_vector;
-	typedef sdsl::rrr_vector<63> rrr_vector;
+	typedef sdsl::rrr_vector<BLOCKSIZE> rrr_vector;
 
 	bit_vector bv;
 	rrr_vector rv;
@@ -38,7 +38,7 @@ int main()
 	// Unranking operations
 	loop_i = LOOP_COUNT;
 
-	fileh = fopen("data/testfile.dat", "r");
+	fileh = fopen("data/testfile" DENSITY ".dat", "r");
 	fseek(fileh, 0, SEEK_END);
 	filesize = ftell(fileh);
 	bv = bit_vector(filesize*8);

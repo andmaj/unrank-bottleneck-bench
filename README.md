@@ -1,25 +1,25 @@
 # Unrank bottleneck benchmark
 
-*Benchmark unrank operation cost of access using libcds and sdsl library.*
+*Benchmark unrank operation cost of access using the sdsl library.*
 
-## To make
-make
+## To make:
+make 
 
-## To test libcds
-make cds-bench
+## To test sdsl binomial table:
+make sdsl-binom
 
-## To test sdsl
-make sdsl-bench
+## To profile normal sdsl:
+make sdsl-normal-bench
 
-## Between tests
-make clean
+## To profile linear sdsl:
+make sdsl-linear-bench
 
-## Results (Intel Q6600):
+## To profile normal sdsl without branch prediction:
+make sdsl-normal-wobp-bench
 
-Not a bottleneck in libcds (because using a lookup table).
+## Results (Intel Q6600)
 
-Unrank takes 27-47 % of access time in sdsl.
-
+In the results folder.
 
 ## Author
 
